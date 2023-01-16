@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poiret+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #eafdfc;
+}
+
+#seleccionarKokemon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo {
+  font-family: "Fredoka One", cursive;
+  color: rgb(10, 191, 204);
+  font-size: 42px;
+}
+
+.subTitulo {
+  color: rgb(10, 191, 204);
+  font-size: 32px;
+}
+
+.styleDivKokemon {
+  display: flex;
+  gap: 10px;
+}
+.cajaDeKokemon {
+  width: 280px;
+  height: 140px;
+  background-color: #bfeaf5;
+  padding: 60px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  color: rgb(10, 191, 204);
+}
+.cajaDeKokemon:hover {
+  cursor: pointer;
+}
+.cajaDeKokemon > img {
+  height: 100px;
+}
+
+#botonkokemon {
+  width: 200px;
+  height: 50px;
+  border-radius: 20px;
+  background: transparent;
+  border: 2px solid #bfeaf5;
+  font-family: "Poppins", sans-serif;
+  margin-top: 20px;
+  color: rgb(10, 191, 204);
+}
+#botonkokemon:hover {
+  cursor: pointer;
+}
+
+input {
+  display: none;
+}
+
+#seleccionarAtaque {
+  flex-direction: column;
+  align-items: center;
+}
+
+.botonDeAtaque {
+  background-color: #bfeaf5;
+  padding: 32px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  border-color: rgb(10, 191, 204);
+  width: 200px;
+  font-family: "Poppins", sans-serif;
+  color: rgb(10, 191, 204);
+}
+
+#mensajes {
+  width: 360px;
+  height: 60px;
+  background: #bfeaf5;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: rgb(6, 99, 105);
+}
+
+#botonReiniciar {
+  border: transparent;
+  border-radius: 20px;
+  color: rgb(6, 99, 105);
+  background-color: #bfeaf5;
+  font-family: "Poppins", sans-serif;
+}
