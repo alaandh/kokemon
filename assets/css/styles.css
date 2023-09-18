@@ -28,6 +28,7 @@ body {
   display: flex;
   gap: 10px;
 }
+
 .cajaDeKokemon {
   width: 280px;
   height: 140px;
@@ -40,6 +41,10 @@ body {
   color: rgb(10, 191, 204);
 }
 .cajaDeKokemon:hover {
+  background-color: #92dfcd;
+  transform: translateY(-4px);
+}
+.cajaDeKokemon:hover {
   cursor: pointer;
 }
 .cajaDeKokemon > img {
@@ -50,6 +55,7 @@ body {
   width: 200px;
   height: 50px;
   border-radius: 20px;
+  box-sizing: border-box;
   background: transparent;
   border: 2px solid #bfeaf5;
   font-family: "Poppins", sans-serif;
@@ -58,6 +64,8 @@ body {
 }
 #botonkokemon:hover {
   cursor: pointer;
+  transform: translateY(-4px);
+  background-color: #92dfcd;
 }
 
 input {
@@ -78,6 +86,10 @@ input {
   width: 200px;
   font-family: "Poppins", sans-serif;
   color: rgb(10, 191, 204);
+}
+.botonDeAtaque:hover {
+  transform: translateY(-4px);
+  cursor: pointer;
 }
 
 #mensajes {
@@ -100,4 +112,9 @@ input {
   color: rgb(6, 99, 105);
   background-color: #bfeaf5;
   font-family: "Poppins", sans-serif;
+}
+
+#botonReiniciar:hover {
+  transform: translateY(-2px);
+  cursor: pointer;
 }
