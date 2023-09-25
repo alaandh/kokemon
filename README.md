@@ -1,5 +1,5 @@
 # kokemon
-Primer repositorio juego Kokemon
+Primer repositorio, juego Kokemon
 
 1. Elige tu kokemon, selecciónalo.
 2. Elige tus ataques.
