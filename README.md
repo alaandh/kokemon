@@ -1,4 +1,4 @@
-# kokemon 
+# kokemon
 Primer repositorio, juego Kokemon
 
 1. Seleccioná tu kokemon.
